@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/satir1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 1" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 3" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 4" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/satir2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 1" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 3" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_primary"
+                android:drawableTop="@drawable/ic_person_white_24dp"
+                android:gravity="center"
+                android:text="Ürün 4" />
+
+        </TableRow>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+        </ScrollView>
+    </TableLayout>
+
+</LinearLayout>
